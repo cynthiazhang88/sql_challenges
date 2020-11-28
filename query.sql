@@ -1,4 +1,4 @@
--List the following details of each employee: employee number, last name, first name, sex, and salary.
+--List the following details of each employee: employee number, last name, first name, sex, and salary.
 SELECT "Employees".emp_no, "Employees".last_name, "Employees".first_name, "Employees".sex, "Salaries".salaries
 FROM "Employees"
 JOIN "Salaries"
@@ -57,7 +57,6 @@ FROM "Employees"
 GROUP BY "Employees".last_name
 ORDER BY
 COUNT (*) DESC;
-
 
 
 
